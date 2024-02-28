@@ -1,10 +1,12 @@
 # Visual Interfaces Data Project 1
 
+## Live Visualization Webpage
 https://main--beautiful-cucurucho-4754fd.netlify.app/project1/
 
 ![image](https://github.com/tedcordonnier/visual_interfaces_project1/assets/83316488/c146d01b-de91-4f13-b89e-35e876d3b790)
 
-## Goal of project: To allow users to take the given .csv data and choose which columns they want to visualize. The user would then be able to understand the data better by seeing it visually through the 2 histograms and 2 cloropheth maps, as well as seeing the combination of the data through the scatterplot.
+## Goal of project
+To allow users to take the given .csv data and choose which columns they want to visualize. The user would then be able to understand the data better by seeing it visually through the 2 histograms and 2 cloropheth maps, as well as seeing the combination of the data through the scatterplot.
 
 ## Data
 https://www.cdc.gov/dhdsp/maps/atlas/index.htm or national_health_data.csv
