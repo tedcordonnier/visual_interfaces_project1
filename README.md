@@ -11,7 +11,7 @@ GUI:
 
 Views: 
 2 Histograms, one for each option, with axis labels and a title.
-2 Chloropleth maps, one for each option, with a title. The color itensity determines the value at each county. Details on demand are available when using mouse hover
+2 Choropleth maps, one for each option, with a title. The color itensity determines the value at each county. Details on demand are available when using mouse hover
 1 Scatterplot, using data from both options, with axis labels and a title.
 
 Color coded views that use the same option, such as cyan for both Option1 and magenta for both Option2
@@ -19,8 +19,11 @@ Order of the views: The top half of the page contains a histogram for Option1, t
 
 Interaction: 
 GUI allows the user to choose which 2 options they want to display. All of the charts will then automatically change based on the options selected, and use the data of the selected option (column)
-Mouse hover on the Chloropleth maps allow the user to see detials on demand that will show the exact value of the option that is being shown as well as the name of the county
+Mouse hover on the Choropleth maps allow the user to see detials on demand that will show the exact value of the option that is being shown as well as the name of the county
 
 Application Discovery: 
 This application allows the user to discover trends within the data and to get a better understanding of each variable as well as how they interact with eachother.
 An example of a new insight that was found is that when choosing the options of poverty percentage and percent stroke, we can see that there is a positive trend between these 2 variables, as well as the higher prevalence of rural counties the higher you go with these 2 variables. 
+
+Process:
+Libraries that were used were d3 version 6. Code was structured: index.html to include the html elements. main.js as the controller who organizes the data and creates instances of each chart. Then 3 js files, one for each chart type: histogram, scatterplot, choroplethMap. These files were all structured in a way such that they have an initVis(), updateVis(), and renderVis().
