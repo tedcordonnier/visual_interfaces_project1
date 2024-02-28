@@ -3,6 +3,9 @@
 ## Live Visualization Webpage
 https://main--beautiful-cucurucho-4754fd.netlify.app/project1/
 
+## Video Demo
+https://www.youtube.com/watch?v=kGxZSxeOooM
+
 ![image](https://github.com/tedcordonnier/visual_interfaces_project1/assets/83316488/c146d01b-de91-4f13-b89e-35e876d3b790)
 
 ## Goal of project
